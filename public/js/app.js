@@ -21,6 +21,7 @@ let remoteVideosCount = 0;
 localVideoEl.hide();
 
 // Add validation rules to Create/Join Room Form
+console.log(formEl);
 formEl.form({
   fields: {
     roomName: 'empty',
